@@ -1,0 +1,408 @@
+* {
+  font-family: SansOri, SansOriFallback, sans-serif;
+}
+div.menu {
+  box-shadow: 0 1px 5px rgba(128, 128, 128, 0.6);
+}
+
+#hamburger:checked ~ div.submenu {
+  left: 0;
+  transition: 500ms;
+  display: block;
+}
+label[for="close"] {
+  position: absolute;
+  width: 56px;
+  height: 40px;
+  background-color: #ffffff;
+  left: 38px;
+  top: 25px;
+  text-align: center;
+  font-size: 40px;
+  z-index: 20;
+  display: none;
+  transition: 500ms;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -ms-transition: 500ms;
+  -o-transition: 500ms;
+  color: #666666;
+}
+
+#hamburger:checked ~ label[for="close"] {
+  display: block;
+}
+@media screen and (min-width:1536px) {
+  label[for="close"] {
+      width: 85px;
+      font-size: 52px;
+      margin-top: 15PX;
+  }
+}
+@media screen and (min-width:1280px) {
+  label[for="close"] {
+      width: 95px;
+      font-size: 42px;
+      margin-top: 15PX;
+  }
+}
+@media screen and (min-width:1024px) {
+  label[for="close"] {
+      font-size: 40px;
+      margin-top: 10PX;
+  }
+}
+@media screen and (min-width:768px) {
+  label[for="close"] {
+      left:10px;
+      font-size: 40px;
+      top: 18PX;
+      font-size: 30px;
+  }
+}
+@media screen and (min-width:640px) {
+  label[for="close"] {
+      left:10px;
+      font-size: 40px;
+      top: 18PX;
+      font-size: 30px;
+  }
+}
+div.user:hover path {
+  d: path(
+    "M12 13.032c-3.758 0-6.188 2.023-6.188 5.155 0 1.964 5.154 2.063 6.188 2.063s6.188-.099 6.188-2.063c0-3.132-2.429-5.155-6.188-5.155zm0-2.063c1.99 0 3.609-1.619 3.609-3.609S13.99 3.751 12 3.751 8.391 5.37 8.391 7.36A3.613 3.613 0 0 0 12 10.969z"
+  );
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+  fill: #777777;
+}
+div.shoppingbag {
+  box-shadow: 0 1px 5px rgba(128, 128, 128, 0.6);
+}
+/****************************best************************************/
+li.best:hover > div.best {
+  display: block;
+}
+/****************************catalogue************************************/
+li.catalogue:hover > div.catalogue {
+  display: block;
+}
+div.catalogue > img.catalogue:hover {
+  filter: brightness(50%);
+}
+
+
+/* ****************************inspiration******************************** */
+li.inspiration:hover > div.inspiration {
+    display: block;
+  }
+  div.inspiration > img.inspiration:hover {
+    filter: brightness(50%);
+}
+  /* *************************skin care********************************** */
+  li.skincare:hover > div.skincare {
+    display: block;
+  }
+/***************************make up************************************/
+li.makeup:hover > div.makeup {
+    display: block;
+  }
+  /***************************fragrance************************************/
+li.fragrance:hover > div.fragrance {
+    display: block;
+  }
+  /****************************body****************************************/
+  li.body:hover > div.body {
+    display: block;
+  }
+   /****************************hair****************************************/
+   li.hair:hover > div.hair {
+    display: block;
+  }
+  /****************************accessories*********************************/
+  li.accessories:hover > div.accessories {
+    display: block;
+  }
+  /****************************wellness*********************************/
+  li.wellness:hover > div.wellness {
+    display: block;
+  }
+  /****************************men*********************************/
+  li.men:hover > div.men {
+    display: block;
+  }
+  /****************************kids*********************************/
+  li.kids:hover > div.kids {
+    display: block;
+  }
+  /****************************novel************************************/
+li.novel:hover > div.novel {
+  display: block;
+}
+/****************************beauty************************************/
+li.beauty:hover > div.beauty {
+  display: block;
+}
+  /*****************************slider1.1****************************/
+  div.wrapper>div.myslider1>div.swiper-wrapper>div.swiper-slide#slide1>a>div.front>div:nth-of-type(2):hover{
+    background-color: #774c4e; 
+    color: black;
+}
+/*pag*/
+div.wrapper>div.myslider1>div.swiper-pagination{
+  width: 20%;
+  height: 20px;
+  position: absolute;
+  bottom: 50px;
+  left: 480px;
+}
+/***********************************slide2*****************************/
+div.wrapper>div.myslider1>div.swiper-wrapper>div.swiper-slide#slide2>a>div.front>div:nth-of-type(2):hover{
+  background-color: #F8D1B0; 
+  color: black;
+}
+/*pag*/
+div.wrapper>div.myslider1>div.swiper-pagination{
+  width: 20%;
+  height: 20px;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+}
+  /* ***************************************slide3***************************/
+  div.wrapper>div.myslider1>div.swiper-wrapper>div.swiper-slide#slide3>a>div.front>div:nth-of-type(2):hover{
+    background-color: #a14d51; 
+    color: black;
+}
+/*pag*/
+div.wrapper>div.myslider1>div.swiper-pagination{
+    width: 20%;
+    height: 20px;
+    position: absolute;
+    bottom: 28px;
+    left: 480px;
+}
+/*************************************menu2****************************/
+div.menu2{
+  box-shadow: 0px 1px 8px lightgray;
+}
+div.menu2>nav>ul>li:nth-of-type(1)>a{
+  padding:0px 10px ;
+}
+div.menu2>nav>ul>li:nth-of-type(1):hover >a {
+  color: #868686;
+}
+div.menu2>nav>ul>li:nth-of-type(1):hover >a >svg{
+  fill:#868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(2)>a:hover{
+  color: #868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(3)>a:hover{
+  color: #868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(4)>a:hover{
+  color: #868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(5)>a:hover{
+  color: #868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(6)>a:hover{
+  color: #868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(7)>a:hover{
+  color: #868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(8)>a:hover{
+  color: #868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(9)>a:hover{
+  color: #868686;
+}
+
+div.menu2>nav>ul>li:nth-of-type(10)>a:hover{
+  color: #868686;
+}
+/********************************body***********************************/
+div.body01>div.partial>div.left{
+  background-image: url(../images/contain1.left.jfif);
+  background-position: center center;
+  background-size: cover;
+}
+div.body01>div.partial>div.right>div.part>div.img01{
+  background-image: url(../images/contain1.right1.jfif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+div.body01>div.partial>div.right>div.part>div.img02{
+  background-image: url(../images/contain1.right2.jfif);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.body01>div.partial>div.right>div.part>div.img03{
+  background-image: url(../images/contain1.right3.jfif);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+i.aaa{
+  display: none;
+}
+/* *******************************************************************/
+.scale{
+  transition: 700ms;
+  -webkit-transition: 700ms;
+  -moz-transition: 700ms;
+  -ms-transition: 700ms;
+  -o-transition: 700ms;
+}
+
+.scale:hover{
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+.star00{
+  width: 7%;
+}
+
+/***********************************body2******************************/
+div.body02>div.partial02>div.right02{
+  background-image: url(../images/contain2.jfif);
+  background-position: center center;
+  background-size: cover;
+}
+div.body02>div.partial02>div.left02>div.part>div.img01{
+  background-image: url(../images/contain2.1);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.body02>div.partial02>div.left02>div.part>div.img02{
+  background-image: url(../images/contain2.2.jfif);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.body02>div.partial02>div.left02>div.part>div.img03{
+  background-image: url(../images/contain2.3.jfif);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.body02>div.partial02>div.left02>div.part>div.img04{
+  background-image: url(../images/contain2.4.jfif);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/**************************************body3***************************/
+@media screen and (min-width:1536px) {
+  div.body03>div.right{
+      width: calc(100% - 700px);
+  }
+}
+@media screen and (min-width:1023px) and (max-width:1536px) {
+  div.body03>div.right{
+      width: calc(100% - 700px);
+  }
+}
+
+div.body03>div.left{
+  background-image: url(../images/contain3.jfif);
+  background-position: center center;
+  background-size: cover;
+}
+/*******************************body4*********************************/
+div.body04>div.partial04>div.left04{
+  background-image: url(../images/contain4.jfif);
+  background-position: center center;
+  background-size: cover;
+}
+div.body04>div.partial04>div.right04>div.part>div.img01{
+  background-image: url(../images/contain4.1);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.body04>div.partial04>div.right04>div.part>div.img02{
+  background-image: url(../images/contain4.2.jfif);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+div.body04>div.partial04>div.right04>div.part>div.img03{
+  background-image: url(../images/contain4.3.jfif);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*********************************body5***************************/
+
+div.body05>div.partial>div.part01>div.img{
+  background-image: url(../images/contain5.left.jfif);
+  background-position: center center;
+  background-size: cover;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+div.body05>div.partial>div.part01>div.img:hover{
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+
+
+div.body05>div.partial>div.part02>div.img{
+  background-image: url(../images/contain5.right.jfif);
+  background-position: center center;
+  background-size: cover;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;}
+
+
+  div.body05>div.partial>div.part02>div.img:hover{
+      filter: brightness(50%);
+      -webkit-filter: brightness(50%);
+      transition: 300ms;
+      -webkit-transition: 300ms;
+      -moz-transition: 300ms;
+      -ms-transition: 300ms;
+      -o-transition: 300ms;
+  }
+
+  div.contact{
+      border-top: 4px solid #f5f5f5;
+  }
